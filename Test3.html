@@ -1,0 +1,286 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 3 Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        #D{
+    background-color:lightsalmon;
+}
+.navbar{
+    position:fixed;
+    top:0%;
+    background-color: white;
+    width:100%;
+    box-shadow: 0px 0px 8px rgb(0 0 0 /6%);
+}
+ul{
+    list-style-type: none;
+    font-weight: 600;
+    margin: 0px;
+    font-family: "lato",sans-serif;
+}
+li{
+    float:left;
+}
+li a{
+    display:block;
+    padding:25px;
+    background-color: white;
+    text-decoration:none;
+    color:black;
+}
+/* banner section */
+.container{
+    width:100%;
+    margin: 2% 0%;
+    padding: 6% 0%;
+}
+.banner{
+    display:grid;
+    grid-template-columns: repeat(2,50%);
+    background-color: #edf1ad;
+}
+.banner .image img{
+    width:90%;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.banner .content{
+    font-family: "lato",sans-serif;
+    padding:6% 0%;
+}
+.banner .content .title{
+    font-size: 50px;
+}
+.banner .content .title span{
+    font-weight: 800;
+}
+.banner .content .desc{
+    font-size:26px;
+}
+.banner .content .btn{
+    background-color: #6b8363;
+    color:white;
+    font-size: 16px;
+    font-weight: 700;
+    padding:2% 5%;
+    border-radius: 30px;
+    border:none;
+    cursor:pointer;
+    font-family: "lato",sans-serif;
+}
+/* about section */
+.about{
+    display:grid;
+    grid-template-columns: repeat(2,50%);
+}
+.about .image img{
+    width:60%;
+    margin-left: 20%;
+    border-radius: 50%;
+}
+.about .content{
+    font-family: "lato",sans-serif;
+    padding:0% 0%;
+}
+.about .content .title{
+    font-size: 30px;
+}
+.about .content .desc{
+    font-size: 19px;
+}
+/* skills section */
+.skills .content{
+    font-family:"lato",sans-serif;
+    padding:2% 10%;
+    background-color: #edf1ad;
+}
+.skills .content .title{
+    font-size: 28px;
+    font-weight: 800;
+    text-align:center;
+}
+.skills .grid-container{
+    display:grid;
+    grid-template-columns: repeat(4,25%);
+    grid-gap:10px 20px;
+}
+.skills .grid-container .grid-item{
+    border:1px solid #ddd;
+    background-color: #fff;
+    border-bottom: 5px solid #6b8363;
+    padding: 7% 6%;
+    border-radius: 8px;
+}
+.fa-brands{
+    margin-right: 8%;
+    font-size: 19px;
+    color:#6b8363;
+
+}
+/* contact section */
+.contact {
+    display:grid;
+    grid-template-columns: repeat(2,50%);
+    background-color: #dcdfb7;
+}
+.contact .image img{
+    width:60%;
+    margin-left:25%;
+    border-radius: 50%;
+}
+.contact .content{
+    font-family:"Lato",sans-serif;
+    padding:0% 10%;
+}
+.contact .content .title{
+    font-size: 20px;
+    font-weight: 800;
+}
+.contact .content .form .field{
+    padding:2% 0%
+}
+.contact .content .form .input{
+    font-size:16px;
+    font-family: "Lato";
+    padding:2% 1%;
+    border: 1px solid black;
+    font-weight: 700;
+    border-radius: 10px;
+}
+#message{
+    font-size:16px;
+    font-family: "Lato";
+    padding:2% 1%;
+    border: 1px solid black;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.d{
+    margin-top:5px;
+    background-color: #6b8363;
+    color:white;
+    font-size: 16px;
+    font-weight: 700;
+    padding:2% 5%;
+    border-radius: 30px;
+    border:none;
+    cursor:pointer;
+    font-family: "lato",sans-serif;
+}
+/* footer section */
+.footer{
+    text-align:center;
+    border: 1px solid #dcdfb7;
+    background-color: #bbe2ad;
+    box-shadow: 0px 0px 8px rgb(0 0 0 /6%);
+}
+.footer .social-sites .footer-icons .icons{
+    margin-left: 30%;
+}
+    </style>
+</head>
+<body>
+    <div class="maincontainer">
+        <!-- navbar section -->
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div id="D">
+        <!-- banner section -->
+        <div class="container banner">
+            <div class="image">
+                <img src="https://www.ge.com/research/sites/default/files/styles/hero_banner/public/images/capabilities/2018-11/industry-3087393__480.jpg?itok=PThSdE_F" alt="banner-img"/>
+            </div>
+            <div class="content">
+                <p class="title"> Hey! I'm <span>Deepak Dhakrey</span></p>
+                <p class="desc">I am a software Developer</p>
+                <button class="btn" href="#about">About Me</button>
+            </div>
+        </div>
+        <!-- about section -->
+        <div class="container about">
+            <div class="content">
+                <p class="title"> About Me</span></p>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laudantium velit voluptas unde odio, pariatur totam sit labore tenetur necessitatibus? Quod ad sunt voluptatum ex veniam suscipit eos culpa fugiat! Deleniti necessitatibus dolor maiores consequatur hic explicabo cum consequuntur harum voluptatem mollitia tempore ullam ipsam eos, in doloremque architecto quos pariatur exercitationem praesentium molestias tempora quasi id enim! Quasi eius voluptatem sequi earum dolorem ab ipsam ullam, provident praesentium atque, itaque odio doloribus quae molestias repellendus. Sit doloremque praesentium labore.
+                </p>
+            </div>
+            <div class="image">
+                <img src="https://www.gardeningknowhow.com/wp-content/uploads/2019/09/flower-color-400x391.jpg" alt="banner-img"/>
+            </div>
+        </div>
+        <!-- skills section -->
+        <div class="container skills">
+            <div class="content">
+                <div class="title"> Skills</div>
+                <div class="grid-container">
+                <div class="grid-item"><i class="fa-brands fa-html5"></i>HTML</div>
+                <div class="grid-item"><i class="fa-brands fa-css3"></i>CSS</div>
+                <div class="grid-item"><i class="fa-brands fa-bootstrap"></i>Bootstrap</div>
+                <div class="grid-item"><i class="fa-brands fa-js"></i>Javascript</div>
+            </div>
+            </div>
+        </div>
+        <!-- contact section -->
+        <div class="container contact">
+            <div class="image">
+                <img src="https://www.gardeningknowhow.com/wp-content/uploads/2019/09/flower-color-400x391.jpg" alt="contact-img"/>
+            </div>
+            <div class="content">
+                <p class="title">Get in touch with me here!</p>
+                <form action="#" class="form">
+                    <div clas="field">
+                        <label for="email" class="title">Your email Id:</label><br/>
+                        <input type="text" id="email" name="email" value="email@gmail.com" class="input"/>
+                    </div>
+                    <div clas="field">
+                        <label for="message" class="title">Your message</label><br/>
+                        <textarea name="" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <input type="submit" value="Submit" class ="d"/>
+                </form>
+            </div>
+            
+        </div>
+        <!-- footer section -->
+        <div class="footer">
+            <div class="footer-title">
+                <h2>Deepak Dhakrey</h2>
+            </div>
+            <div class="social-sites">
+                <div class="footer-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+                    <p>@<span id="year"></span>copyright all right reserved</p>
+                    <script>
+                        var d = new Date();
+                        var n = d.getFullYear();
+                        document.getElementById("year").innerHTML = n;
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
